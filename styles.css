@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ccc;
+    padding: 10px 20px;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.header ul li {
+    display: inline;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.about .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-placeholder {
+    width: 100px;
+    height: 100px;
+    background: black;
+}
+
+.services, .portfolio, .testimonials, .products {
+    text-align: center;
+}
+
+.service-boxes, .portfolio-items, .testimonial-boxes, .product-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.box, .portfolio-box, .testimonial, .product {
+    width: 80px;
+    height: 80px;
+    background: black;
+}
+
+.more-btn {
+    display: inline-block;
+    margin-top: 10px;
+    color: red;
+    text-decoration: none;
+}
+
+.contact-form {
+    max-width: 300px;
+    margin: auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
